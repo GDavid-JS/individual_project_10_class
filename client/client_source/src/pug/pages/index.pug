@@ -1,0 +1,27 @@
+extends ../layout/main.pug
+
+block styles
+  <link rel="stylesheet" href="/assets/styles/main.css">
+
+block scripts
+  script(src="/assets/js/index.js")
+
+block content
+  .page
+    include ../includes/modules/sidebar.pug
+    .wrap
+      include ../includes/modules/header.pug
+      .gdz
+        p.gdz__text Нажимая на кнопку "КУПИТЬ", вы соглашаетесь с подключением услуг на ваш номер телефона. 40 руб будет стоить  подключение услуги, 140 руб в месяц ее обслуживание.
+        .gdz--inner(style="display: flex; justify-content: space-between; align-items: center;")
+          button.gdz__button КУПИТЬ
+          p.gdz__counter 60
+      main.main
+        .search-wrap
+          input.search(maxlength='100', name='search')
+        .link-wrap
+          a.main-link(href="http://localhost:5000/") главная GRIGORIAN.COM
+        include ../includes/modules/products.pug
+        .product-modal
+        .add-product
+          button.add-product__button.button еще

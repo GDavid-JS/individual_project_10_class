@@ -1,0 +1,62 @@
+.product {
+  width: 33%;
+  height: 500px;
+  padding: 20px;
+  border-radius: 2px;
+  transition: 0.3s all;
+  color: #fff;
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 7px rgb(97, 97, 97);
+
+  @include roboto;
+
+  &__img {
+    width: 300px;
+    height: 150px;
+    background: center center no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #000;
+  }
+
+  &__description {
+    font-size: 15px;
+    padding: 20px 0;
+    color: rgb(70, 70, 70);
+  }
+
+  &__link {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    // background-image: linear-gradient(45deg,rgb(66, 114, 120) 40%, rgb(155, 155, 155) 40% 60%, rgb(86,120,66) 60% 100%);
+    background-color: rgb(209, 122, 22); // rgb(31, 83, 3)
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    transition: 0.2s box-shadow;
+    text-decoration: none;
+
+    @include roboto;
+
+    &:hover {
+      box-shadow: 0px 0px 6px rgb(209, 122, 22), 0px 0px 10px rgb(209, 122, 22), 0px 0px 16px rgb(209, 122, 22);
+    }
+  }
+
+  &--inner {
+    @include flex-between;
+  }
+
+  &__cost {
+    font-size: 22px;
+    color: rgb(136, 136, 136);
+  }
+}

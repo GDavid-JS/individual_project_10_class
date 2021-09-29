@@ -1,0 +1,30 @@
+extends ../../layout/main.pug
+
+block styles
+  <link rel="stylesheet" href="/assets/styles/main.css">
+
+//- block scripts
+
+block content
+  .page(style="width: 100%;")
+    //- include ../../includes/modules/sidebar.pug
+    .wrap(style="width: 100%;")
+      include ../../includes/modules/header.pug
+      main.main(style="color: #fff;")
+        .link-wrap
+          a.main-link(href="http://localhost:5000/") главная GRIGORIAN.COM
+        .product-info
+          .product-info--img-wrap
+            img(src= imgurl, width="240px").product-info__img
+          .product-info--inner
+            h3.product-info__title #{title}
+            p.product-info__description #{description}
+            .product-info-buy
+              p.product-info__cost #{cost}
+              button.product-info__button Купить
+
+        - for (var i = 0; i < keys.length; i++) {
+          .obj
+            p.key= keys[i]
+            p.value= values[i]
+        -}

@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index",
+    "client-install": "npm i --prefix ./client/client_source",
+    "client": "npm run dev --prefix ./client/client_source",
+    "all": "concurrently \"npm run client\" \"npm run server\"",
+    "instal-all" : "concurrently \"npm i\" \"npm run client-install\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,13 @@
+.section-products {
+  width: 100%;
+  padding-top: 15px;
+  background-color: rgb(214, 214, 214);
+
+  &--inner {
+    width: 90%;
+    margin: 0 auto;
+    
+    @include flex-between;
+    flex-wrap: wrap;
+  }
+}

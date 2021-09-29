@@ -1,0 +1,51 @@
+@mixin font($family: 'Roboto', $size: 16px, $style: normal, $transform: none, $bold: normal) {
+  font-family: $family, sans-serif;
+  font-size: $size;
+  font-style: $style;
+  text-transform: $transform;
+  font-weight: $bold;
+}
+
+@mixin flex($jusctify-content: space-between, $align-items: center, $flex-direction: row) {
+  display: flex;
+  justify-content: $jusctify-content;
+  align-items: $align-items;
+  flex-direction: $flex-direction;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-direction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin roboto {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+@mixin array($border-top, $border-left, $border-right) {
+  width: 0;
+  height: 0;
+  border-top: $border-top solid #000;
+  border-left: $border-left solid transparent;
+  border-right: $border-right solid transparent;
+}

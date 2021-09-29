@@ -1,0 +1,76 @@
+.product-info {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: rgb(189, 189, 189);
+
+  @include roboto;
+
+  &--inner {
+    padding-left: 30px;
+  }
+
+  &__img {
+    padding-bottom: 20px;
+  }
+
+  &--img-wrap {
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+  }
+
+  &__title {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  &__description {
+    padding-bottom: 10px;
+  }
+
+  &-buy {
+    padding-top: 100px;
+    width: 25%;
+
+    @include flex-between;
+  }
+
+  &__cost {
+    padding-bottom: 10px;
+    color: rgb(209, 122, 22);
+    font-size: 20px;
+  }
+
+  &__button {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    // background-image: linear-gradient(45deg,rgb(66, 114, 120) 40%, rgb(155, 155, 155) 40% 60%, rgb(86,120,66) 60% 100%);
+    background-color: rgb(209, 122, 22); // rgb(31, 83, 3)
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    transition: 0.2s box-shadow;
+    outline: none;
+    padding: 8px 20px;
+
+    @include roboto;
+
+      &:hover {
+        box-shadow: 0px 0px 6px rgb(209, 122, 22), 0px 0px 10px rgb(209, 122, 22), 0px 0px 16px rgb(209, 122, 22);
+      }
+  }
+}
+
+.obj {
+
+  padding: 15px 40px;
+
+  @include flex-between;
+  @include roboto;
+
+  &:hover {
+    background-color: rgb(209, 122, 22);
+  }
+}

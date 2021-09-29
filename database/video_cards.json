@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "imgurl": "/assets/images/vidocards/1.png",
+    "pageurl": "/video_cards/MSI_nVidia_GeForce_GTX_1650SUPER_GTX_1650_SUPER_GAMING_X_id_1",
+    "name": "Видеокарта MSI nVidia GeForce GTX 1650SUPER , GTX 1650 SUPER GAMING X",
+    "description": "Buy Video Card MSI nVidia GeForce GTX 1650SUPER, GTX 1650 SUPER GAMING X at an affordable price. Video card MSI nVidia GeForce GTX 1650SUPER, GTX 1650 SUPER GAMING X: specifications, description, photos, customer reviews, related products.",
+    "cost": "15000 руб.",
+    "info": {
+      "keys": ["Интерфейс", "Видеочипсет", "Частота графического процессора", "Техпроцесс", "Объем видеопамяти", "Тип видеопамяти", "Частота видеопамяти", "Разрядность шины видеопамяти", "Максимальное разрешение", "Поддержка технологий", "Разъемов HDMI", "Версия разъема HDMI", "Разъемов Display Port", "Версия разъема Display Port", "Разъемы дополнительного питания", "Рекомендуемая производителем мощность БП", "Максимальное энергопотребление", "Длина видеокарты", "Система охлаждения", "Ширина видеокарты", "Использование тепловых трубок", "Тип поставки", "Гарантия", "Страна производитель"],
+      "values": ["PCI-E 3.0", "nVidia GeForce GTX 1650SUPER", "1485 МГц (1755 МГц, в режиме Boost)", "12 нм", "4 Гб", "GDDR6" ,"12000 МГц", "128 bit", "7680 х 4320", "DirectX 12/OpenGL 4.6", "1", "2.0b", "3", "1.4", "6 pin" ,"350 Вт", "100 Вт", "248 мм", "активное (радиатор и два вентилятора)", "двухслотовая система охлаждения", "есть", "retail", "36 мес.", "Russia"]
+    }
+  },
+  {
+    "id": 2,
+    "imgurl": "/assets/images/vidocards/2.png",
+    "pageurl": "/video_cards/MSI_nVidia_GeForce_GTX_1650SUPER_GTX_1650_SUPER_GAMING_X_id_2",
+    "name": "Видеокарта MSI nVidia GeForce GTX 1650SUPER , GTX 1650 SUPER GAMING X",
+    "description": "Buy Video Card MSI nVidia GeForce GTX 1650SUPER, GTX 1650 SUPER GAMING X at an affordable price. Video card MSI nVidia GeForce GTX 1650SUPER, GTX 1650 SUPER GAMING X: specifications, description, photos, customer reviews, related products.",
+    "cost": "10540 руб.",
+    "info": {
+      "keys": ["Интерфейс", "Видеочипсет", "Частота графического процессора", "Техпроцесс", "Объем видеопамяти", "Тип видеопамяти", "Частота видеопамяти", "Разрядность шины видеопамяти", "Максимальное разрешение", "Поддержка технологий", "Разъемы DVI", "Разъемов HDMI", "Версия разъема HDMI", "Разъемов Display Port", "Версия разъема Display Port", "Разъемы дополнительного питания", "Рекомендуемая производителем мощность БП", "Максимальное энергопотребление", "Длина видеокарты", "Система охлаждения", "Ширина видеокарты", "Использование тепловых трубок", "OverClock Edition", "Тип поставки", "Гарантия", "Страна производитель"],
+      "values": ["PCI-E 3.0", "nVidia GeForce GTX 1050TI", "1290 МГц (1493 МГц, в режиме Boost)", "14нм", "4 Гб", "GDDR5" ,"7108 МГц", "128 bit", "7680 х 4320", "DirectX 12/OpenGL 4.5", "1", "1", "2.0", "1", "1.4" ,"6 pin", "300 Вт", "75 Вт", "229 мм", "активное (радиатор и два вентилятора)", "двухслотовая система охлаждения", "есть", "да", "retail", "36 мес.", "Russia"]
+    }
+  }
+]

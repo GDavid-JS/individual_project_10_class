@@ -1,0 +1,10 @@
+.add-product {
+  width: 100%;
+  height: 140px;
+
+  @include flex-center;
+
+  &__button {
+    padding: 10px 100px;
+  }
+}
